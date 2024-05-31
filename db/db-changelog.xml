@@ -71,4 +71,10 @@
       referencedTableName="BREEDS"
       referencedColumnNames="BRE_ID"/>
   </changeSet>
+
+  <changeSet id="Add PRO_GENDER column" author="jaideep">
+    <addColumn tableName="PROFILES">
+      <column name="PRO_GENDER" type="CHAR(1)"/>
+    </addColumn>
+  </changeSet>
 </databaseChangeLog>
